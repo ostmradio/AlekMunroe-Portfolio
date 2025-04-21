@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+:root {
+    --textColor: #FFFFFF;
+    --font: 'Karla', sans-serif;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+
+    background: linear-gradient(45deg, var(--color1), var(--color2), var(--color3));
+    background-size: 600% 600%;
+    animation: gradientAnimation 30s ease infinite;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: var(--font);
+    color: var(--textColor);
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    min-height: 100%;
+}
+
+.description {
+    color: var(--textColor);
+    text-align: center;
+    margin: 27px auto;
+    margin-top: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.profilePicture img {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+}
+
+.userName {
+    color: var(--textColor);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+}
+
+.links {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+
+.link {
+    position: relative;
+    background-color: transparent;
+    color: var(--textColor);
+    border: solid var(--textColor) 2px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.link i.fa {
+    margin-right: 0.5rem;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.link img.fa {
+    width: 16px; /* Adjust the width to match the desired size */
+    height: 16px; /* Adjust the height to match the desired size */
+    vertical-align: middle;
+}

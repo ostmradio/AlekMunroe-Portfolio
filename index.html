@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<title>Alek Paul Munroe</title>
+<link rel="icon" type="image" href="/img/favicon.jpg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/bfd72d6385.js" crossorigin="anonymous"></script>
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar">
+        <br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+               title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="img/SelfPhoto.png" style="width:45%;" class="w3-round"><br><br>
+            <h4><b>Alek Paul Munroe</b></h4>
+            <p class="w3-text-grey">Portfolio</p>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#demoreel" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal">
+                <i class="fa fa-th-large fa-fw w3-margin-right"></i>DEMO REEL
+            </a>
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
+                <i class="fa fa-envelope fa-fw w3-margin-right"></i>PORTFOLIO
+            </a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
+                <i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT
+            </a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
+                <i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT
+            </a>
+        </div>
+        <div class="w3-panel w3-large">
+            <!--<i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>-->
+            <a class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/alek-paul-munroe-160a01231/"
+               target="_blank"></a>
+            <!--<a class="fa fa-headphones w3-hover-opacity" href="https://www.ostm.co.uk/"
+              target="_blank"></a>-->
+            <a class="fa fa-twitter w3-hover-opacity" href="https://twitter.com/OstmRadio" target="_blank"></a>
+            <!--<a class="fab fa-blogger w3-hover-opacity" href="https://blog.ostm.co.uk/" target="_blank"></a>-->
+            <a class="fa-brands fa-artstation w3-hover-opacity" href="https://www.artstation.com/kaleemfarooq29" target="_blank"></a>
+            <a class="fa-brands fa-itch-io w3-hover-opacity" href="https://kaleemfarooq29.itch.io/" target="_blank"></a>
+            <a class="fa-brands fa-itch-io w3-hover-opacity" href="https://ostm-alekgamedev.itch.io/" target="_blank"></a>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+         title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header>
+            <!--id="portfolio"-->
+            <a href="#">
+                <img src="img/SelfPhoto.png" style="width:65px;"
+                     class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity">
+            </a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </span>
+            <div class="w3-container">
+                <h1><b>Alek Paul Munroe</b></h1>
+                <div class="w3-section w3-bottombar w3-padding-16">
+                </div>
+            </div>
+        </header>
+
+        <!--Demo reel, temp video-->
+        <!--Add subtitle here "Demo reel"-->
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="demoreel">
+            <center>
+                <iframe width=100% height="400" src="https://www.youtube.com/embed/A5jdvsyf8DI" title="Demo Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </center>
+            <br />
+        </div>
+
+
+        <!-- All Photo Grids-->
+        <!--Add subtitle here "Portfolio"-->
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="portfolio">
+
+            <!-- First Photo Grid-->
+            <div class="w3-row-padding">
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/ostm-radio/Main.png" alt="OSTM Radio" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>OSTM Radio</b></p>
+                        <p>I am the proud owner of OSTM Radio, radio station that I created from scratch. From developing a website to building and managing servers, and from curating the perfect playlist to editing music, I'm involved in every aspect of the station. Plus, I'm always working hard to keep our followers in the loop by writing awesome blog posts and updating our social media accounts every couple of days. It's a lot of work, but I love every minute of it!</p>
+                        <p>To see what I have worked on <a href="https://www.ostm.co.uk" target="_blank">Click Here!</a></p>
+                    </div>
+                </div>
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/the-unrelated-podcast/Logo.jpg" alt="The UNRELATED Podcast" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>The UNRELATED Podcast</b></p>
+                        <p>One of the most exciting projects I've had the chance to work on was the creation of "The UNRELATED Podcast", which my college friends and I produced to be played on my radio station, OSTM Radio. Over the course of two seasons, we discussed the latest news and events happening around the world, and had some great conversations and debates along the way. It was a real team effort, and I loved being a part of something so creative and engaging. I'm proud of what we achieved with the podcast, and I'm looking forward to seeing where it might go in the future.</p>
+                        <p>To listen to The UNRELATED Podcast <a href="https://www.ostm.co.uk/theunrelatedpodcast.html">Click Here!</a></p>
+                    </div>
+                </div>
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/the-story-of-kate-webster/Main.png" alt="The Story of Kate Webster" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>The Story of Kate Webster</b></p>
+                        <p>As part of a second-year university project, I had the opportunity to work on The Story of Kate Webster, a short narrative-driven game built in Unity. You play as Kate Webster, making choices through a branching dialogue system that influences the story's outcome. I was the lead programmer in a group of three, responsible for coding the entire game. It was challenging deciding what features to prioritize in a short development window, but I’m really proud of what I achieved.</p>
+                        <p>You can watch development videos <a href="https://www.youtube.com/watch?v=9njS-MgOHJE&list=PLJZh3qYu5XAV1T-hK7jnJCNliBwBUkHfG">here</a> or download the project <a href="https://github.com/AlekMunroe/Y2T1-GameplayDevelopmentFoundations">here.</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- End First Photo Grid-->
+
+            <!-- Second Photo Grid-->
+            <div class="w3-row-padding">
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/unity-dialogue-system/Main.png" alt="Unity Dialogue System" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>Unity Dialogue System</b></p>
+                        <p>While developing The Story of Kate Webster, I created a fully functional branching dialogue system from scratch using Unity’s xNode framework. Even though it started as part of a group project, I independently programmed and debugged the entire system. It took a lot of time and effort to add all the features and squash bugs, but I’m really happy with how it turned out. I plan to reuse and expand this system for future projects.</p>
+                        <p>To check out the project <a href="https://github.com/AlekMunroe/Unity-Dialogue-System">Click Here!</a></p>
+                    </div>
+                </div>
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/wiinite/Main.png" alt="Wiinite" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>Wiinite</b></p>
+                        <p>Wiinite started as a fun project after I was inspired by a video imagining what Fortnite would look like if it was made on the Nintendo Wii. I loved the concept so much that I decided to build my own version! The journey wasn’t easy — importing the Wuhu Island map, fixing texture issues, adding characters, and setting up emotes all had their challenges. But after a lot of trial, error, and creativity, I brought Wiinite to life. This project taught me so much about problem-solving and game development. If you want to see more about the project and its development journey, I made two videos on my YouTube channel explaining everything!</p>
+                        <p>To check out the videos <a href="https://www.youtube.com/watch?v=SKWHO4fwgic">Click Here</a> or <a href="https://www.youtube.com/watch?v=E6jgbguon4s">Click Here!</a></p>
+                    </div>
+                </div>
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/the-dark-lords-reign/Main.png" alt="The Dark Lord's Reign" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>The Dark Lord's Reign</b></p>
+                        <p>I'm excited to share that I've written a book called The Dark Lord's Reign, an epic tale set in the depths of Hell. The story follows Lucifer, the fallen angel, as he leads a coven of powerful witches on a dangerous mission to face the upcoming war against the souls of Hell. The journey is perilous, and the witches will have to push the boundaries of their beliefs and test the limits of their powers to defeat their enemies and secure their place in the underworld. With the fate of Hell hanging in the balance, Lucifer and his allies must come together to harness the power of the Grand Hall of Arcane and unleash the full extent of their magic against their foes. But with enemies at every turn and the souls of Hell determined to reign supreme, the battle won't be easy. Will they be able to overcome the challenges and emerge victorious, or will the souls of Hell succeed in their quest for ultimate power? The Dark Lord's Reign is a thrilling and action-packed adventure that I'm proud to have written and hope you enjoy reading.</p>
+                        <p>To read The Dark Lord's Reign <a target="_blank" href="https://www.amazon.co.uk/Dark-Lords-Reign-Alek-Munroe-ebook/dp/B0BYTM5K3V/ref=sr_1_1?crid=3JGA5SSWP5QK7&keywords=the+dark+lords+reign&qid=1703033055&sprefix=the+dark+lords+reign%2Caps%2C71&sr=8-1">Click Here!</a></p>
+                    </div>
+                </div>
+            </div>
+             <!-- End Second Photo Grid-->
+
+            <!-- Third Photo Grid-->
+            <div class="w3-row-padding">
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/winter-wonderland/SmallLogo.png" alt="The Late Night" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>The Late Night</b></p>
+                        <p>During my time in college, I had the chance to take part in a fun project where we had one week to create a game based on the theme "Winter Wonderland". I teamed up with two other classmates, and my role was to program the entire game and work within the Unity game engine. We put our heads together and worked hard, and it paid off when our game scored first place in the rankings! It was an incredible feeling to see our game come to life and to know that our hard work and creativity had paid off.</p>
+                        <p>To play the game <a target="_blank" href="https://alekpaulfarooq.itch.io/game-design-winter-wonderland-game-jam">Click Here!</a></p>
+                    </div>
+                </div>
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/tfgm-tram-board/Main.png" alt="TFGM Tram Board" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>TFGM Tram Board</b></p>
+                        <p>In October 2023, I created a tram board to mimic the live board seen on tram stops in Manchester. This was a passion project as I love the trams and I liked the idea of being able to see and hear the announcements live.</p>
+                        <p>To see the TFGM Tram Board <a target="_blank" href="https://github.com/AlekMunroe/TFGM-Tram-Board">Click Here!</a></p>
+                    </div>
+                </div>
+
+              <div class="w3-third w3-container w3-margin-bottom">
+                  <img src="img/structurefy/Main.png" alt="Structurefy" style="width:100%" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                      <p><b>Structurefy</b></p>
+                      <p>Structurefy is a simple but useful tool I built during my second year at university. It's a Unity editor extension that automatically generates a folder structure at the start of any new Unity project, based on a config file. No more creating folders by hand! While it wasn’t the most complicated thing I've made, it definitely saves time.</p>
+                      <p>To watch development videos <a target="_blank" href="https://www.youtube.com/watch?v=wZucgdf4dq8&list=PLJZh3qYu5XAWYI8xrdLy0PBRmaZK2zNXE">Click Here</a> or to download the project <a target="_blank" href="https://github.com/AlekMunroe/Uni-AdvancedGameEngineProgramming-Structurefy">Click Here!</a></p>
+                  </div>
+              </div>
+
+
+
+            </div>
+            <!-- End Third Photo Grid-->
+
+            <!-- Fourth Photo Grid-->
+            <div class="w3-row-padding">
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/monkey-runner/Headder.png" alt="Monkey Runner" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>Personal Project - Monkey Runner</b></p>
+                        <p>During the 2022 half term, I took on a personal project that I'm super excited about: creating a new mobile game for both Android and IOS users. From start to finish, I was the one coming up with all the ideas, writing every line of code, and troubleshooting any issues that cropped up along the way. It was definitely a challenge, but I love seeing my vision come to life, and I can't wait to share it with the world!</p>
+                        <p>To see what I have worked on <a href="https://www.youtube.com/channel/UCy9piLXAWYM-PRRxSvUt7bA" target="_blank">Click Here!</a></p>
+                    </div>
+                </div>
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/time-travel-game/Main.png" alt="Time Travel Game" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>Time Travel Game</b></p>
+                        <p>The Time Travel Game was a group project I worked on during my time at university. I was one of the programmers, helping to build gameplay systems and integrate mechanics. Although I had to leave the project early, it was still a valuable learning experience about collaboration and game production.</p>
+                        <p>To see development videos on the project <a target="_blank" href="https://www.youtube.com/watch?v=iuo1SngFGEA&list=PLJZh3qYu5XAXBMKc1iZFewcvPElNEWPc5">Click Here</a> or to download the project <a target="_blank" href="https://github.com/AlekMunroe/Uni-AdvancedGameplayDevelopment">Click Here!</a></p>
+                    </div>
+                </div>
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/glitterbeam-radio/Main.png" alt="Glitterbeam" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>Glitterbeam Radio - Presenter</b></p>
+                        <p>It was a huge honor when Glitterbeam, a global LGBT+ radio station with a presence throughout the UK, took notice of my work on OSTM Radio and asked me to volunteer as a radio presenter with them. It's an incredible opportunity for me to work with such an influential and impactful organization, and I'm thrilled to be able to use my skills and passion for radio to contribute to their mission. I'm excited to see where this partnership might lead and to continue learning and growing as a presenter and media professional.</p>
+                        <p>To go to Glitterbeam Radio <a target="_blank" href="https://www.glitterbeam.co.uk">Click Here!</a></p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- Fourth Third Photo Grid-->
+
+            <!-- Fifth Photo Grid-->
+            <div class="w3-row-padding">
+
+                <div class="w3-third w3-container">
+                    <iframe width="100%" src="https://www.youtube.com/embed/llzpVUufZ7M" title="GDL3-A2 Youtube Player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen class="w3-hover-opacity"></iframe>
+                    <div class="w3-container w3-white">
+                        <p><b>Game Design - Level 3 BTEC (A2)</b></p>
+                        <p>As part of my Level 3 BTEC in Game Design, I had the opportunity to work with a group of talented individuals to create an awesome game. It was a steep learning curve for me, as I had to figure out how to manage a team and work together to meet some tight deadlines to create a fully functional playable demo. But with the support of my teammates and some great guidance from our tutor, we pulled it off, and I gained some valuable experience in teamwork and project management along the way.</p>
+                        <p>To play the game <a href="https://alekpaulfarooq.itch.io/l3-btec-a2-innit" target="_blank">Click Here!</a></p>
+                    </div>
+                </div>
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/ngy/Main.png" alt="NGY" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>Unity Radio - Next Gen Youths</b></p>
+                        <p>Working with Unity Radio, a Manchester-based station that brings young people together to create a weekly radio show, was an incredible experience for me. Not only did I learn how to work more effectively in a team and gain valuable insights into the music industry, but I also got the chance to complete a two-week work experience program with them. During that time, I took on a range of responsibilities, including managing inventory, editing music to ensure it was safe for broadcast, and even working on blogs for the Unity Radio website. It was an incredible opportunity that taught me so much about working in the media, and I'm grateful for the chance to have been a part of it.</p>
+                        <p>To see what I had worked on <a href="work/ngy">Click Here!</a></p>
+                    </div>
+                </div>
+
+                <!--UNUSED PROJECT
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/glitterbeam-radio/Main.png" alt="Glitterbeam" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>TITLE</b></p>
+                        <p>About...</p>
+                        <p>LINK <a target="_blank" href="https://www.youtube.com">Click Here!</a></p>
+                    </div>
+                </div>
+                    -->
+
+
+
+            </div>
+            <!-- Fifth Third Photo Grid-->
+
+
+
+
+            <!-- TEMPLATE Photo Grid-->
+            <!--<div class="w3-row-padding">
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="img/IMAGE-FOLDER/Main.png" alt="TITLE" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>TITLE</b></p>
+                        <p>DESCRIPTION</p>
+                        <p>To view, <a target="_blank" href="URL">Click Here!</a></p>
+                    </div>
+                </div>
+
+
+
+            </div>-->
+            <!-- TEMPLATE Third Photo Grid-->
+        </div>
+
+
+
+
+        <!-- Pagination -->
+        <!--<div class="w3-center w3-padding-32">
+      <div class="w3-bar">
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+        <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+      </div>
+    </div>-->
+        <!-- Images of Me -->
+        <div class="w3-row-padding w3-padding-16">
+            <div class="w3-col m6">
+                <img src="img/SelfPhoto.png" alt="Me" style="width:100%">
+            </div>
+            <div class="w3-col m6">
+                <img src="img/SelfPhoto.png" alt="Me" style="width:100%">
+            </div>
+        </div>
+
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="about">
+            <h4><b>About Me</b></h4>
+            <p>
+                I am Alek, the founder of OSTM LTD. I have great skills in computing and coming up with new ideas for
+                making games. In 2019 I worked with Unity Radio to make a radio show for youths and in the process I had made
+                my own radio station called OSTM Radio where me and others run our own radio shows. In my free time I like to
+                make games and work on personal projects such as working on a game called Monkey Runner (read above for more
+                information) and this website. I work really hard in making sure all my projects are completed to the best of my ability.
+            </p>
+
+            <!-- NEEDS TO BE NDA APPROVED BEFORE PUBLISHING THIS VERSION
+        <p>I am Alek, the founder of OSTM LTD. I have great skills in computing and coming up with new ideas for
+          making games. In 2019 I worked with Unity Radio to make a radio show for youths and in the process I had made
+          my own radio station called OSTM Radio where me and others run our own radio shows. In my free time I like to
+          make games and work on personal projects such as working on a game called Monkey Runner (read above for more
+          information), this website and as of 2022 I am working on a new project named Battle Bullets which will be an online FPS game where you and your friends will fight to win a battle!. I work really hard in making sure all my projects are completed to the best of my ability.</p>
+
+        -->
+            <hr>
+
+            <h4><b>Technical Skills</b></h4>
+            <!-- Progress bars / Skills -->
+            <p>Time Management</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+            </div>
+            <p>Game Development</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:65%">65%</div>
+            </div>
+            <p>Computing</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+            </div>
+            <p>Problem Solving</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+            </div>
+            <p>Music composition and development</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:45%">45%</div>
+            </div>
+            <p>
+                <a href="work/personal/resume.pdf" target="_blank">
+                    <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+                        <i class="fa fa-download w3-margin-right"></i>Download Resume
+                    </button>
+                </a>
+            </p>
+
+            <!-- Contact Section -->
+            <div class="w3-container w3-padding-large w3-grey">
+                <h4 id="contact"><b>Contact Me</b></h4>
+                <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+                    <div class="w3-third w3-dark-grey">
+                        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>alekfarooq@ostm.co.uk</p>
+                    </div>
+                    <div class="w3-third w3-teal">
+                        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>Manchester, UK</p>
+                    </div>
+                    <div class="w3-third w3-dark-grey">
+                        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>admin@ostm.co.uk</p>
+                    </div>
+                </div>
+
+                <div class="w3-black w3-center w3-padding-24">
+                    Alek Paul Munroe @ <a href="https://www.ostm.co.uk"
+                                          title="ostm.co.uk" target="_blank" class="w3-hover-opacity">ostm.co.uk</a>
+                </div>
+
+                <!-- End page content -->
+            </div>
+
+            <script>// Script to open and close sidebar
+                function w3_open() {
+                    document.getElementById("mySidebar").style.display = "block";
+                    document.getElementById("myOverlay").style.display = "block";
+                }
+
+                function w3_close() {
+                    document.getElementById("mySidebar").style.display = "none";
+                    document.getElementById("myOverlay").style.display = "none";
+                }</script>
+
+</body>
+
+</html>
