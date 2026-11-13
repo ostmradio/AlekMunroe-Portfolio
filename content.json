@@ -1,0 +1,106 @@
+{
+  "pageTitle": "Alek Paul Munroe — Developer",
+  "metaDescription": "Developer focused on Unity, C#, gameplay systems and reusable tools, with experience in web development.",
+  "appearance": {
+    "accent": "pink",
+    "layout": "grid"
+  },
+  "profile": {
+    "name": "Alek Paul Munroe",
+    "role": "Developer · Unity, systems and tools",
+    "headline": "Gameplay ideas.\nWorking systems.",
+    "introduction": "I build games, reusable systems and practical tools, with a focus on Unity and C#. My experience also includes web development and technical projects. Explore the work and the decisions behind it.",
+    "location": "Manchester, UK",
+    "availability": "Interested in junior development opportunities",
+    "headshot": "/img/SelfPhoto.png",
+    "headshotAlt": "Alek Paul Munroe",
+    "portraitCaption": "Development with a focus on Unity"
+  },
+  "resume": "",
+  "workTitle": "Systems with a purpose.",
+  "workDescription": "A selection of gameplay systems and tools, with demonstrations, source code and explanations of my contribution.",
+  "showreel": {
+    "enabled": true,
+    "title": "Watch the work.",
+    "description": "My 2025 showreel. Individual project demonstrations are linked below.",
+    "url": "https://www.youtube.com/watch?v=_MHvD24ZY8Y"
+  },
+  "aboutTitle": "A little about me.",
+  "about": "I am a developer with a particular interest in Unity, gameplay programming and reusable systems. My projects include branching dialogue, development tools, collision geometry and node-based vehicle movement.\n\nAlongside Unity, I work with HTML, CSS and JavaScript to build websites and connect systems. I enjoy solving technical problems and making my work easier for other developers to understand and use.",
+  "contact": {
+    "title": "Let’s build something.",
+    "description": "Interested in my work or want to discuss a development opportunity? Get in touch.",
+    "email": "alekmunroe@alekmunroe.co.uk",
+    "linkedin": "https://www.linkedin.com/in/alekmunroe/",
+    "github": "https://github.com/AlekMunroe/",
+    "youtube": "https://www.youtube.com/@AlekMunroe01",
+    "otherLinks": "/links/"
+  },
+  "footer": "Development, gameplay systems and tools.",
+  "projects": [
+    {
+      "title": "Unity Dialogue System",
+      "category": "Gameplay systems",
+      "status": "Refined existing project",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "/img/unity-dialogue-system/Main.png",
+      "video": "",
+      "thumbnailAlt": "Unity Dialogue System project",
+      "description": "A branching dialogue system built on xNode, separated from its original game into a reusable Unity project.",
+      "contribution": "C# dialogue functionality, node presentation improvements, demonstration graphs and developer documentation.",
+      "moreLabel": "Explore the system",
+      "moreUrl": "",
+      "repositoryUrl": "https://github.com/AlekMunroe/Unity-Dialogue-System",
+      "demoUrl": "https://www.youtube.com/watch?v=dqqKegGubGQ"
+    },
+    {
+      "title": "Unity Dev Console System",
+      "category": "Developer tools",
+      "status": "Refined existing project",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "",
+      "video": "",
+      "thumbnailAlt": "Unity Dev Console showing available commands",
+      "description": "An in-game development console with separate command components and help information generated from registered commands.",
+      "contribution": "Command registration, reusable command components, custom command creation tools and setup documentation.",
+      "moreLabel": "Explore the system",
+      "moreUrl": "",
+      "repositoryUrl": "https://github.com/AlekMunroe/Unity-Dev-Console-System",
+      "demoUrl": ""
+    },
+    {
+      "title": "3D Collider Tool",
+      "category": "Developer tools",
+      "status": "New project",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "",
+      "video": "",
+      "thumbnailAlt": "Custom collider points and generated collision mesh",
+      "description": "A Unity editor tool for creating custom convex collision shapes by adding, removing and moving points.",
+      "contribution": "Point editing, convex hull generation, automatic MeshCollider updates, validation and multiple-point selection.",
+      "moreLabel": "View more",
+      "moreUrl": "",
+      "repositoryUrl": "",
+      "demoUrl": ""
+    },
+    {
+      "title": "Node Based Vehicle Movement",
+      "category": "Gameplay systems",
+      "status": "New project",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "",
+      "video": "",
+      "thumbnailAlt": "A vehicle following a node-based route",
+      "description": "A configurable vehicle movement prototype that follows ordered route nodes, with adjustable movement and turning settings.",
+      "contribution": "Route management, editor-controlled node creation and removal, undo support and vehicle movement.",
+      "moreLabel": "View more",
+      "moreUrl": "",
+      "repositoryUrl": "",
+      "demoUrl": "https://www.youtube.com/watch?v=l6HaDfbRl4E"
+    }
+  ]
+}

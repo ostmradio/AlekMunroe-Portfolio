@@ -1,0 +1,244 @@
+media:
+  - name: images
+    label: Images
+    input: img/uploads
+    output: /img/uploads
+    extensions: [jpg, jpeg, png, webp, avif, gif]
+
+  - name: videos
+    label: Video thumbnails
+    input: files/videos
+    output: /files/videos
+    extensions: [mp4, webm]
+
+  - name: documents
+    label: Documents
+    input: files/documents
+    output: /files/documents
+    extensions: [pdf]
+
+content:
+  - name: portfolio
+    label: Portfolio
+    type: file
+    path: content.json
+
+    fields:
+      - name: pageTitle
+        label: Browser title
+        type: string
+
+      - name: metaDescription
+        label: Search description
+        type: text
+
+      - name: appearance
+        label: Appearance
+        type: object
+        fields:
+          - name: accent
+            label: Accent colour
+            type: select
+            options:
+              values: [pink, rose, white]
+
+          - name: layout
+            label: Project layout
+            type: select
+            options:
+              values: [grid, single]
+
+      - name: profile
+        label: Introduction and headshot
+        type: object
+        fields:
+          - name: name
+            label: Your name
+            type: string
+
+          - name: role
+            label: Professional role
+            type: string
+
+          - name: headline
+            label: Main headline
+            type: text
+
+          - name: introduction
+            label: Introduction
+            type: text
+
+          - name: location
+            label: Location
+            type: string
+
+          - name: availability
+            label: Opportunity statement
+            type: string
+
+          - name: headshot
+            label: Headshot
+            type: image
+            options:
+              media: images
+
+          - name: headshotAlt
+            label: Headshot alternative text
+            type: string
+
+          - name: portraitCaption
+            label: Text beneath headshot
+            type: string
+
+      - name: resume
+        label: Resume PDF
+        type: file
+        options:
+          media: documents
+
+      - name: workTitle
+        label: Projects section heading
+        type: string
+
+      - name: workDescription
+        label: Projects introduction
+        type: text
+
+      - name: showreel
+        label: Showreel
+        type: object
+        fields:
+          - name: enabled
+            label: Display showreel
+            type: boolean
+
+          - name: title
+            label: Section heading
+            type: string
+
+          - name: description
+            label: Description
+            type: text
+
+          - name: url
+            label: YouTube URL or direct video URL
+            type: string
+
+      - name: aboutTitle
+        label: About heading
+        type: string
+
+      - name: about
+        label: About text
+        type: text
+        description: Separate paragraphs with a blank line.
+
+      - name: contact
+        label: Contact information
+        type: object
+        fields:
+          - name: title
+            label: Heading
+            type: string
+
+          - name: description
+            label: Description
+            type: text
+
+          - name: email
+            label: Email address
+            type: string
+
+          - name: linkedin
+            label: LinkedIn URL
+            type: string
+
+          - name: github
+            label: GitHub URL
+            type: string
+
+          - name: youtube
+            label: YouTube URL
+            type: string
+
+          - name: otherLinks
+            label: Other links page URL
+            type: string
+
+      - name: footer
+        label: Footer text
+        type: string
+
+      - name: projects
+        label: Projects
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.title}"
+
+        fields:
+          - name: title
+            label: Project title
+            type: string
+            required: true
+
+          - name: category
+            label: Category
+            type: string
+            description: Matching categories are grouped into filters.
+
+          - name: status
+            label: Project status
+            type: string
+
+          - name: published
+            label: Display on website
+            type: boolean
+
+          - name: thumbnailType
+            label: Thumbnail format
+            type: select
+            options:
+              values: [image, video]
+
+          - name: image
+            label: Thumbnail image or video poster
+            type: image
+            options:
+              media: images
+
+          - name: video
+            label: Video thumbnail file
+            type: file
+            description: Upload an MP4 or WebM. Use Demo URL for YouTube.
+            options:
+              media: videos
+
+          - name: thumbnailAlt
+            label: Thumbnail description
+            type: string
+
+          - name: description
+            label: Project description
+            type: text
+
+          - name: contribution
+            label: Your contribution
+            type: text
+
+          - name: moreLabel
+            label: View more button text
+            type: string
+
+          - name: moreUrl
+            label: View more URL
+            type: string
+
+          - name: repositoryUrl
+            label: Repository URL
+            type: string
+
+          - name: demoUrl
+            label: Demonstration URL
+            type: string
