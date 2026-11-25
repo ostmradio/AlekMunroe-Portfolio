@@ -1,6 +1,6 @@
 {
-  "pageTitle": "Alek Paul Munroe — Developer",
-  "metaDescription": "Developer focused on Unity, C#, gameplay systems and reusable tools, with experience in web development.",
+  "pageTitle": "Alek Paul Munroe",
+  "metaDescription": "Founder of OSTM LTD, Unity Developer, Web Developer",
   "appearance": {
     "accent": "pink",
     "layout": "grid"
@@ -9,12 +9,11 @@
     "name": "Alek Paul Munroe",
     "role": "Developer · Unity, systems and tools",
     "headline": "Gameplay ideas.\nWorking systems.",
-    "introduction": "I build games, reusable systems and practical tools, with a focus on Unity and C#. My experience also includes web development and technical projects. Explore the work and the decisions behind it.",
+    "introduction": "I build games, developer systems and tools in Unity using C#. My experience also includes web development and other technical projects. Explore all my work here.",
     "location": "Manchester, UK",
-    "availability": "Interested in junior development opportunities",
+    "availability": "Interested in teaching opportunities",
     "headshot": "/img/uploads/Alek-Munroe-Headshot-v2.png",
-    "headshotAlt": "Alek Paul Munroe",
-    "portraitCaption": "Development with a focus on Unity"
+    "headshotAlt": "Alek Paul Munroe"
   },
   "workTitle": "Systems with a purpose.",
   "workDescription": "A selection of gameplay systems and tools, with demonstrations, source code and explanations of my contribution.",
