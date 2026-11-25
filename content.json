@@ -163,6 +163,17 @@
       "description": "In October 2023, I created a tram board to mimic the live board seen on tram stops in Manchester. This was a passion project as I love the trams and I liked the idea of being able to see and hear the announcements live.",
       "contribution": "Developed a web based tram information board, integrating the live tram data and audio announcements to recreate the official Manchester tram stops.",
       "repositoryUrl": "https://github.com/AlekMunroe/TFGM-Tram-Board"
+    },
+    {
+      "title": "Structurefy",
+      "category": "Unity Systems",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "/img/uploads/Main-3.png",
+      "thumbnailAlt": "Structurefy Demo",
+      "description": "Structurefy is a simple but useful tool I built during my second year at university. It's a Unity editor extension that automatically generates a folder structure at the start of any new Unity project, based on a config file. No more creating folders by hand! While it wasn’t the most complicated thing I've made, it definitely saves time.",
+      "repositoryUrl": "https://github.com/AlekMunroe/Uni-AdvancedGameEngineProgramming-Structurefy",
+      "demoUrl": "https://www.youtube.com/watch?v=wZucgdf4dq8&list=PLJZh3qYu5XAWYI8xrdLy0PBRmaZK2zNXE"
     }
   ]
 }
