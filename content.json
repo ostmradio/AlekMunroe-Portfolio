@@ -94,6 +94,18 @@
       "contribution": "Founded and developed OSTM Radio, its website and servers. Managed the technical infrastructure, prepared audio and contribute to the radio stations content and operations.",
       "moreLabel": "View more",
       "moreUrl": "https://ostm.co.uk/"
+    },
+    {
+      "title": "The UNRELATED Podcast",
+      "category": "OSTM LTD",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "/img/uploads/Logo.jpg",
+      "thumbnailAlt": "The UNRELATED Podcast Logo",
+      "description": "One of the most exciting projects I've had the chance to work on was the creation of \"The UNRELATED Podcast\", which my college friends and I produced to be played on my radio station, OSTM Radio. Over the course of two seasons, we discussed the latest news and events happening around the world, and had some great conversations and debates along the way. It was a real team effort, and I loved being a part of something so creative and engaging. I'm proud of what we achieved with the podcast, and I'm looking forward to seeing where it might go in the future.",
+      "contribution": "Handled the technical production, including setting up recording software, coordinating recording times, editing audio and uploading episodes for broadcast.",
+      "moreLabel": "Listen here",
+      "moreUrl": "https://ostm.co.uk/replays/unrelated/"
     }
   ]
 }
