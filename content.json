@@ -194,6 +194,16 @@
       "description": "The Time Travel Game was a group project I worked on during my time at university. I was one of the programmers, helping to build gameplay systems and integrate mechanics. Although I had to leave the project early, it was still a valuable learning experience about collaboration and game production.",
       "repositoryUrl": "https://github.com/AlekMunroe/Uni-AdvancedGameplayDevelopment",
       "demoUrl": "https://www.youtube.com/watch?v=iuo1SngFGEA&list=PLJZh3qYu5XAXBMKc1iZFewcvPElNEWPc5"
+    },
+    {
+      "title": "Glitterbeam Radio - Presenter",
+      "category": "Other",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "/img/uploads/GlitterbeamRadio Logo.png",
+      "description": "It was a huge honor when Glitterbeam, a global LGBT+ radio station with a presence throughout the UK, took notice of my work on OSTM Radio and asked me to volunteer as a radio presenter with them. It's an incredible opportunity for me to work with such an influential and impactful organization, and I'm thrilled to be able to use my skills and passion for radio to contribute to their mission. I'm excited to see where this partnership might lead and to continue learning and growing as a presenter and media professional.",
+      "moreLabel": "Glitterbeam Radio",
+      "moreUrl": "https://www.glitterbeam.co.uk/"
     }
   ]
 }
