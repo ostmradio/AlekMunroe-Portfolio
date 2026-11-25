@@ -152,6 +152,17 @@
       "contribution": "Programmed the game in Unity as part of a small team, turning the brief into a playable game within one week.",
       "moreLabel": "Play here",
       "moreUrl": "https://alekpaulfarooq.itch.io/game-design-winter-wonderland-game-jam"
+    },
+    {
+      "title": "TFGM Tram Board",
+      "category": "Websites",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "/img/uploads/Main-2.png",
+      "thumbnailAlt": "TFGM Tram Board Demo",
+      "description": "In October 2023, I created a tram board to mimic the live board seen on tram stops in Manchester. This was a passion project as I love the trams and I liked the idea of being able to see and hear the announcements live.",
+      "contribution": "Developed a web based tram information board, integrating the live tram data and audio announcements to recreate the official Manchester tram stops.",
+      "repositoryUrl": "https://github.com/AlekMunroe/TFGM-Tram-Board"
     }
   ]
 }
