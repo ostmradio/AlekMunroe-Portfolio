@@ -140,6 +140,18 @@
       "description": "I'm excited to share that I've written a book called The Dark Lord's Reign, an epic tale set in the depths of Hell. The story follows Lucifer, the fallen angel, as he leads a coven of powerful witches on a dangerous mission to face the upcoming war against the souls of Hell. The journey is perilous, and the witches will have to push the boundaries of their beliefs and test the limits of their powers to defeat their enemies and secure their place in the underworld. With the fate of Hell hanging in the balance, Lucifer and his allies must come together to harness the power of the Grand Hall of Arcane and unleash the full extent of their magic against their foes. But with enemies at every turn and the souls of Hell determined to reign supreme, the battle won't be easy. Will they be able to overcome the challenges and emerge victorious, or will the souls of Hell succeed in their quest for ultimate power? The Dark Lord's Reign is a thrilling and action-packed adventure that I'm proud to have written and hope you enjoy reading.",
       "moreLabel": "Read here",
       "moreUrl": "https://www.amazon.co.uk/Dark-Lords-Reign-Alek-Munroe-ebook/dp/B0BYTM5K3V/ref=sr_1_1?crid=3JGA5SSWP5QK7&keywords=the+dark+lords+reign&qid=1703033055&sprefix=the+dark+lords+reign%2Caps%2C71&sr=8-1"
+    },
+    {
+      "title": "The Late Night",
+      "category": "Games",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "/img/uploads/SmallLogo.png",
+      "thumbnailAlt": "The Late Night Logo",
+      "description": "During my time in college, I had the chance to take part in a fun project where we had one week to create a game based on the theme \"Winter Wonderland\". I teamed up with two other classmates, and my role was to program the entire game and work within the Unity game engine. We put our heads together and worked hard, and it paid off when our game scored first place in the rankings! It was an incredible feeling to see our game come to life and to know that our hard work and creativity had paid off.",
+      "contribution": "Programmed the game in Unity as part of a small team, turning the brief into a playable game within one week.",
+      "moreLabel": "Play here",
+      "moreUrl": "https://alekpaulfarooq.itch.io/game-design-winter-wonderland-game-jam"
     }
   ]
 }
