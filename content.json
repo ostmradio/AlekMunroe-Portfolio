@@ -33,7 +33,6 @@
     "github": "https://github.com/AlekMunroe/",
     "youtube": "https://www.youtube.com/@AlekMunroe01"
   },
-  "footer": "Development, gameplay systems and tools.",
   "projects": [
     {
       "title": "Unity Dialogue System",
@@ -83,6 +82,18 @@
       "contribution": "Route management, editor-controlled node creation and removal, undo support and vehicle movement.",
       "moreLabel": "View more",
       "demoUrl": "https://www.youtube.com/watch?v=l6HaDfbRl4E"
+    },
+    {
+      "title": "OSTM Radio",
+      "category": "OSTM LTD",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "/img/uploads/OSTMSharpLogoWhiteBG.png",
+      "thumbnailAlt": "OSTM Logo",
+      "description": "I am the proud owner of OSTM Radio, radio station that I created from scratch. From developing a website to building and managing servers, and from curating the perfect playlist to editing music, I'm involved in every aspect of the station. Plus, I'm always working hard to keep our followers in the loop by writing awesome blog posts and updating our social media accounts every couple of days. It's a lot of work, but I love every minute of it!",
+      "contribution": "Founded and developed OSTM Radio, its website and servers. Managed the technical infrastructure, prepared audio and contribute to the radio stations content and operations.",
+      "moreLabel": "View more",
+      "moreUrl": "https://ostm.co.uk/"
     }
   ]
 }
