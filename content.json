@@ -129,8 +129,7 @@
       "description": "Wiinite started as a fun project after I was inspired by a video imagining what Fortnite would look like if it was made on the Nintendo Wii. I loved the concept so much that I decided to build my own version! The journey wasn’t easy — importing the Wuhu Island map, fixing texture issues, adding characters, and setting up emotes all had their challenges. But after a lot of trial, error, and creativity, I brought Wiinite to life. This project taught me so much about problem-solving and game development. If you want to see more about the project and its development journey, I made two videos on my YouTube channel explaining everything!",
       "contribution": "Developed the Unity prototype, integrating the Wuhu island map, adding characters, implemented emotes.",
       "moreLabel": "Why Did I Make This... - YouTube",
-      "moreUrl": "https://www.youtube.com/watch?v=SKWHO4fwgic",
-      "demoUrl": "https://www.youtube.com/watch?v=SKWHO4fwgic"
+      "moreUrl": "https://www.youtube.com/watch?v=SKWHO4fwgic"
     }
   ]
 }
