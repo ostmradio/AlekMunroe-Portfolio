@@ -184,6 +184,16 @@
       "moreLabel": "Play here",
       "moreUrl": "https://alekmunroe.itch.io/monkey-runner",
       "demoUrl": "https://www.youtube.com/watch?v=NVUANX3RedI&list=PLj65_8gyPUyIKI_ohHKesfPYTh0t11TcQ"
+    },
+    {
+      "title": "Time Travel Game",
+      "category": "Games",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "/img/uploads/TimeTravelGame Demo.png",
+      "description": "The Time Travel Game was a group project I worked on during my time at university. I was one of the programmers, helping to build gameplay systems and integrate mechanics. Although I had to leave the project early, it was still a valuable learning experience about collaboration and game production.",
+      "repositoryUrl": "https://github.com/AlekMunroe/Uni-AdvancedGameplayDevelopment",
+      "demoUrl": "https://www.youtube.com/watch?v=iuo1SngFGEA&list=PLJZh3qYu5XAXBMKc1iZFewcvPElNEWPc5"
     }
   ]
 }
