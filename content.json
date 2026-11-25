@@ -55,7 +55,7 @@
     },
     {
       "title": "3D Collider Tool",
-      "category": "Developer tools",
+      "category": "Unity Systems",
       "published": true,
       "thumbnailType": "image",
       "thumbnailAlt": "Custom collider points and generated collision mesh",
