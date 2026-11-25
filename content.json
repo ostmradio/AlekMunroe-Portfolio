@@ -106,6 +106,18 @@
       "contribution": "Handled the technical production, including setting up recording software, coordinating recording times, editing audio and uploading episodes for broadcast.",
       "moreLabel": "Listen here",
       "moreUrl": "https://ostm.co.uk/replays/unrelated/"
+    },
+    {
+      "title": "The Story of Kate Webster",
+      "category": "Games",
+      "published": true,
+      "thumbnailType": "image",
+      "image": "/img/uploads/Main.png",
+      "thumbnailAlt": "The Story of Kate Webster Logo",
+      "description": "As part of a second-year university project, I had the opportunity to work on The Story of Kate Webster, a short narrative-driven game built in Unity. You play as Kate Webster, making choices through a branching dialogue system that influences the story's outcome. I was the lead programmer in a group of three, responsible for coding the entire game. It was challenging deciding what features to prioritize in a short development window, but I’m really proud of what I achieved.",
+      "contribution": "Lead programmer in Unity using C#. Created the branching dialogue system and implemented the gameplay functionality, prioritising features in a short development time.",
+      "moreLabel": "Watch the development videos",
+      "moreUrl": "https://www.youtube.com/watch?v=9njS-MgOHJE&list=PLJZh3qYu5XAV1T-hK7jnJCNliBwBUkHfG"
     }
   ]
 }
