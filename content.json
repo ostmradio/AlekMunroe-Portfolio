@@ -36,51 +36,37 @@
   "projects": [
     {
       "title": "Unity Dialogue System",
-      "category": "Gameplay systems",
-      "status": "Refined existing project",
+      "category": "Unity Systems",
       "published": true,
       "thumbnailType": "image",
       "image": "/img/unity-dialogue-system/Main.png",
-      "thumbnailAlt": "Unity Dialogue System project",
       "description": "A branching dialogue system built on xNode, separated from its original game into a reusable Unity project.",
-      "contribution": "C# dialogue functionality, node presentation improvements, demonstration graphs and developer documentation.",
-      "moreLabel": "Explore the system",
       "repositoryUrl": "https://github.com/AlekMunroe/Unity-Dialogue-System",
       "demoUrl": "https://www.youtube.com/watch?v=dqqKegGubGQ"
     },
     {
       "title": "Unity Dev Console System",
-      "category": "Developer tools",
-      "status": "Refined existing project",
+      "category": "Unity Systems",
       "published": true,
       "thumbnailType": "image",
       "thumbnailAlt": "Unity Dev Console showing available commands",
       "description": "An in-game development console with separate command components and help information generated from registered commands.",
-      "contribution": "Command registration, reusable command components, custom command creation tools and setup documentation.",
-      "moreLabel": "Explore the system",
       "repositoryUrl": "https://github.com/AlekMunroe/Unity-Dev-Console-System"
     },
     {
       "title": "3D Collider Tool",
       "category": "Developer tools",
-      "status": "New project",
       "published": true,
       "thumbnailType": "image",
       "thumbnailAlt": "Custom collider points and generated collision mesh",
-      "description": "A Unity editor tool for creating custom convex collision shapes by adding, removing and moving points.",
-      "contribution": "Point editing, convex hull generation, automatic MeshCollider updates, validation and multiple-point selection.",
-      "moreLabel": "View more"
+      "description": "A Unity editor tool for creating custom convex collision shapes by adding, removing and moving points."
     },
     {
       "title": "Node Based Vehicle Movement",
-      "category": "Gameplay systems",
-      "status": "New project",
+      "category": "Unity Systems",
       "published": true,
       "thumbnailType": "image",
-      "thumbnailAlt": "A vehicle following a node-based route",
       "description": "A configurable vehicle movement prototype that follows ordered route nodes, with adjustable movement and turning settings.",
-      "contribution": "Route management, editor-controlled node creation and removal, undo support and vehicle movement.",
-      "moreLabel": "View more",
       "demoUrl": "https://www.youtube.com/watch?v=l6HaDfbRl4E"
     },
     {
@@ -89,9 +75,7 @@
       "published": true,
       "thumbnailType": "image",
       "image": "/img/uploads/OSTMSharpLogoWhiteBG.png",
-      "thumbnailAlt": "OSTM Logo",
       "description": "I am the proud owner of OSTM Radio, radio station that I created from scratch. From developing a website to building and managing servers, and from curating the perfect playlist to editing music, I'm involved in every aspect of the station. Plus, I'm always working hard to keep our followers in the loop by writing awesome blog posts and updating our social media accounts every couple of days. It's a lot of work, but I love every minute of it!",
-      "contribution": "Founded and developed OSTM Radio, its website and servers. Managed the technical infrastructure, prepared audio and contribute to the radio stations content and operations.",
       "moreLabel": "View more",
       "moreUrl": "https://ostm.co.uk/"
     },
@@ -103,7 +87,6 @@
       "image": "/img/uploads/Logo.jpg",
       "thumbnailAlt": "The UNRELATED Podcast Logo",
       "description": "One of the most exciting projects I've had the chance to work on was the creation of \"The UNRELATED Podcast\", which my college friends and I produced to be played on my radio station, OSTM Radio. Over the course of two seasons, we discussed the latest news and events happening around the world, and had some great conversations and debates along the way. It was a real team effort, and I loved being a part of something so creative and engaging. I'm proud of what we achieved with the podcast, and I'm looking forward to seeing where it might go in the future.",
-      "contribution": "Handled the technical production, including setting up recording software, coordinating recording times, editing audio and uploading episodes for broadcast.",
       "moreLabel": "Listen here",
       "moreUrl": "https://ostm.co.uk/replays/unrelated/"
     },
@@ -115,7 +98,6 @@
       "image": "/img/uploads/Main.png",
       "thumbnailAlt": "The Story of Kate Webster Logo",
       "description": "As part of a second-year university project, I had the opportunity to work on The Story of Kate Webster, a short narrative-driven game built in Unity. You play as Kate Webster, making choices through a branching dialogue system that influences the story's outcome. I was the lead programmer in a group of three, responsible for coding the entire game. It was challenging deciding what features to prioritize in a short development window, but I’m really proud of what I achieved.",
-      "contribution": "Lead programmer in Unity using C#. Created the branching dialogue system and implemented the gameplay functionality, prioritising features in a short development time.",
       "moreLabel": "Watch the development videos",
       "moreUrl": "https://www.youtube.com/watch?v=9njS-MgOHJE&list=PLJZh3qYu5XAV1T-hK7jnJCNliBwBUkHfG"
     },
@@ -127,7 +109,6 @@
       "image": "/img/uploads/Main-1.png",
       "thumbnailAlt": "Wiinite thumbnail",
       "description": "Wiinite started as a fun project after I was inspired by a video imagining what Fortnite would look like if it was made on the Nintendo Wii. I loved the concept so much that I decided to build my own version! The journey wasn’t easy — importing the Wuhu Island map, fixing texture issues, adding characters, and setting up emotes all had their challenges. But after a lot of trial, error, and creativity, I brought Wiinite to life. This project taught me so much about problem-solving and game development. If you want to see more about the project and its development journey, I made two videos on my YouTube channel explaining everything!",
-      "contribution": "Developed the Unity prototype, integrating the Wuhu island map, adding characters, implemented emotes.",
       "moreLabel": "Why Did I Make This... - YouTube",
       "moreUrl": "https://www.youtube.com/watch?v=SKWHO4fwgic"
     },
